@@ -26,5 +26,9 @@ public class TestController {
 	public String printHello3() {
 		return "Hello sambit sn";
 	}
+	@GetMapping("/hello4")
+	public String printHello4(){
+		return "Hello 4";
+	}
 
 }
