@@ -22,4 +22,9 @@ public class TestController {
 	public String printHello2() {
 		return "Hello sambit1";
 	}
+	@GetMapping("/hello3")
+	public String printHello3() {
+		return "Hello sambit sn";
+	}
+
 }
