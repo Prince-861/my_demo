@@ -12,4 +12,9 @@ public class TestController {
 	public String printHello() {
 		return "Hello";
 	}
+
+	@GetMapping("/hello1")
+	public String printHello1() {
+		return "Hello sambit";
+	}
 }
